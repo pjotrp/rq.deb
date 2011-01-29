@@ -1,0 +1,28 @@
+This package was debianized by Pjotr Prins <pjotr.debian@thebird.nl> on
+Sat, 29 Jan 2011 15:24:10 +0100.
+
+It was downloaded from <https://github.com/pjotrp/rq>
+
+Upstream Author(s):
+
+    <Ara Howard>
+    <Pjotr Prins>
+
+Copyright:
+
+    <Copyright (C) 2004-2011 Ara Howard>
+    <Copyright (C) 2011 Pjotr Prins>
+
+License:
+
+    Ruby License
+
+    http://www.ruby-lang.org/en/LICENSE.txt
+
+    unless described different in the file
+
+The Debian packaging is (C) 2011, Pjotr Prins <pjotr.debian@thebird.nl> and
+is licensed under the GPL, see above.
+
+# Please also look if there are files or directories which have a
+# different copyright/license attached and list them here.
