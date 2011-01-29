@@ -1,13 +1,16 @@
 Source: rq-ruby1.8
-Section: unknown
+Section: science
 Priority: extra
 Maintainer: Pjotr Prins <pjotr.debian@thebird.nl>
 Build-Depends: debhelper (>= 7)
 Standards-Version: 3.7.3
-Homepage: <insert the upstream URL, if relevant>
+Homepage: http://codeforpeople.com/
 
 Package: rq-ruby1.8
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Description: <insert up to 60 chars description>
- <insert long description, indented with spaces>
+Description: Linux Clustering with Ruby Queue: Small Is Beautiful
+  Simply create an NFS-mounted priority queue and let nodes pull
+  jobs from it as fast as they can? No scheduler, no process 
+  migration, no central controller, no kernel mods, no ssh 
+  accounts. 
