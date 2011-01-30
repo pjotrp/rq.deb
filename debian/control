@@ -11,17 +11,16 @@ Vcs-Git:
 Package: rq-ruby1.8
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}, libposixlock-ruby1.8, libsqlite3-ruby1.8
-Description: Linux Clustering with Ruby Queue: Small Is Beautiful
+Description: Linux Clustering with rq: Small Is Beautiful
   Simply create an NFS-mounted priority queue and let nodes pull
   jobs from it as fast as they can? No scheduler, no process 
   migration, no central controller, no kernel mods, no ssh 
-  accounts. 
+  key exchange - ideal for cloud computing. You don't need to 
+  know Ruby to use rq!
 
-Package: paml-doc
-Architecture: all
-Section: non-free/doc
-Depends: ${misc:Depends}
-Description: Documentation for PAML
- The source code comes with a series of PDF files to help with
- further insights for the working of and with PAML.
+# Package: rq-doc
+# Architecture: all
+# Section: doc
+# Depends: ${misc:Depends}
+# Description: Documentation for rq
 
