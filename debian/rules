@@ -7,11 +7,7 @@
 # This special exception was added by Craig Small in version 0.37 of dh-make.
 
 # Uncomment this to turn on verbose mode.
-#export DH_VERBOSE=1
-
-
-
-
+export DH_VERBOSE=1
 
 configure: configure-stamp
 configure-stamp:
@@ -27,7 +23,7 @@ build-stamp: configure-stamp
 	dh_testdir
 
 	# Add here commands to compile the package.
-	$(MAKE)
+	# $(MAKE)
 	#docbook-to-man debian/rq-ruby1.8.sgml > rq-ruby1.8.1
 
 	touch $@
@@ -38,7 +34,7 @@ clean:
 	rm -f build-stamp configure-stamp
 
 	# Add here commands to clean up after the build process.
-	$(MAKE) clean
+	# $(MAKE) clean
 
 	dh_clean 
 
@@ -49,8 +45,11 @@ install: build
 	dh_installdirs
 
 	# Add here commands to install the package into debian/rq-ruby1.8.
-	$(MAKE) DESTDIR=$(CURDIR)/debian/rq-ruby1.8 install
-
+	# $(MAKE) DESTDIR=$(CURDIR)/debian/rq-ruby1.8 install
+  mkdir -p $(CURDIR)/debian/rq-ruby1.8/usr/bin
+  mkdir -p $(CURDIR)/debian/rq-ruby1.8/usr/share/rq-ruby1.8
+	cp -vau bin/* $(CURDIR)/debian/rq-ruby1.8/usr/
+	cp -vau lib/* $(CURDIR)/debian/rq-ruby1.8/usr/share/rq-ruby1.8
 
 # Build architecture-independent files here.
 binary-indep: build install
