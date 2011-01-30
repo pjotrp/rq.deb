@@ -27,5 +27,6 @@ is licensed under the GPL, see above.
 # Please also look if there are files or directories which have a
 # different copyright/license attached and list them here.
 
-/lib/rq/sqlite.rb  GPL2
-
+Files: lib/rq/sqlite.rb
+Copyright: Copyright (C) 2003 Jamis Buck (jgb3@email.byu.edu)
+License: GPL-2
