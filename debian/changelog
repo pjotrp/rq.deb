@@ -1,5 +1,6 @@
 rq-ruby1.8 (3.4.1) unstable; urgency=low
 
   * Initial Release.
+  * Updated dependencies to SQLite3
 
  -- Pjotr Prins <pjotr.debian@thebird.nl>  Sat, 29 Jan 2011 15:24:10 +0100

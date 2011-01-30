@@ -1,16 +1,27 @@
 Source: rq-ruby1.8
-Section: science
+Section: utils
 Priority: extra
-Maintainer: Pjotr Prins <pjotr.debian@thebird.nl>
+Maintainer: Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>
+Uploaders: Pjotr Prins <pjotr.debian@thebird.nl>, Steffen Moeller <moeller@debian.org>
 Build-Depends: debhelper (>= 7)
 Standards-Version: 3.7.3
 Homepage: http://codeforpeople.com/
+Vcs-Git: 
 
 Package: rq-ruby1.8
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends: ${shlibs:Depends}, ${misc:Depends}, libposixlock-ruby1.8, libsqlite3-ruby1.8
 Description: Linux Clustering with Ruby Queue: Small Is Beautiful
   Simply create an NFS-mounted priority queue and let nodes pull
   jobs from it as fast as they can? No scheduler, no process 
   migration, no central controller, no kernel mods, no ssh 
   accounts. 
+
+Package: paml-doc
+Architecture: all
+Section: non-free/doc
+Depends: ${misc:Depends}
+Description: Documentation for PAML
+ The source code comes with a series of PDF files to help with
+ further insights for the working of and with PAML.
+
