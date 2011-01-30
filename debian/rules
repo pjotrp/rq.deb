@@ -46,8 +46,8 @@ install: build
 
 	# Add here commands to install the package into debian/rq-ruby1.8.
 	# $(MAKE) DESTDIR=$(CURDIR)/debian/rq-ruby1.8 install
-  mkdir -p $(CURDIR)/debian/rq-ruby1.8/usr/bin
-  mkdir -p $(CURDIR)/debian/rq-ruby1.8/usr/share/rq-ruby1.8
+	mkdir -p $(CURDIR)/debian/rq-ruby1.8/usr/bin
+	mkdir -p $(CURDIR)/debian/rq-ruby1.8/usr/share/rq-ruby1.8
 	cp -vau bin/* $(CURDIR)/debian/rq-ruby1.8/usr/
 	cp -vau lib/* $(CURDIR)/debian/rq-ruby1.8/usr/share/rq-ruby1.8
 
