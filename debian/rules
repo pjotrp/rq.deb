@@ -48,8 +48,8 @@ install: build
 	# $(MAKE) DESTDIR=$(CURDIR)/debian/rq-ruby1.8 install
 	mkdir -p $(CURDIR)/debian/rq-ruby1.8/usr/bin
 	mkdir -p $(CURDIR)/debian/rq-ruby1.8/usr/share/rq-ruby1.8
-	cp -vau bin/* $(CURDIR)/debian/rq-ruby1.8/usr/
-	cp -vau lib/* $(CURDIR)/debian/rq-ruby1.8/usr/share/rq-ruby1.8
+	cp -vau bin/rq $(CURDIR)/debian/rq-ruby1.8/usr/bin/
+	cp -vau lib $(CURDIR)/debian/rq-ruby1.8/usr/share/rq-ruby1.8
 
 # Build architecture-independent files here.
 binary-indep: build install
