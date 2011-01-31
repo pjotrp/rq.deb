@@ -15,8 +15,8 @@ Description: Linux Clustering with rq: Small Is Beautiful
  Simply create an NFS-mounted priority queue and let nodes pull
  jobs from it as fast as they can? No scheduler, no process 
  migration, no central controller, no kernel mods, no ssh 
- key exchange - ideal for cloud computing. You don't need to 
- know Ruby to use rq!
+ key exchange, but with simple interface and yaml output - ideal 
+ for cloud computing. Note: you don't need to know Ruby to use rq!
 
 # Package: rq-doc
 # Architecture: all
