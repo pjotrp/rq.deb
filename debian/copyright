@@ -16,11 +16,11 @@ Copyright:
 
 License:
 
-    Ruby License (GPL-2 compatible)
+    BSD License
 
     http://www.ruby-lang.org/en/LICENSE.txt
 
-    see also "/usr/share/common-licenses/GPL-2".
+    see also "/usr/share/common-licenses/BSD".
 
     unless described different inside a source file
 
@@ -28,9 +28,4 @@ The Debian packaging is:
 
     Copyright (C) 2011 Pjotr Prins <pjotr.debian@thebird.nl>
 
-and is licensed under the GPL version 3,
-see "/usr/share/common-licenses/GPL-3".
-
-Files: lib/rq/sqlite.rb
-Copyright: Copyright (C) 2003 Jamis Buck (jgb3@email.byu.edu)
-License: GPL-2
+and is licensed under the BSD License, see "/usr/share/common-licenses/BSD".
