@@ -10,13 +10,13 @@ Vcs-Git:
 
 Package: rq-ruby1.8
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}, libposixlock-ruby1.8, libsqlite3-ruby1.8
+Depends: ${shlibs:Depends}, ${misc:Depends}, libposixlock-ruby1.8, libsqlite3-ruby1.8, ruby1.8
 Description: Linux Clustering with rq: Small Is Beautiful
-  Simply create an NFS-mounted priority queue and let nodes pull
-  jobs from it as fast as they can? No scheduler, no process 
-  migration, no central controller, no kernel mods, no ssh 
-  key exchange - ideal for cloud computing. You don't need to 
-  know Ruby to use rq!
+ Simply create an NFS-mounted priority queue and let nodes pull
+ jobs from it as fast as they can? No scheduler, no process 
+ migration, no central controller, no kernel mods, no ssh 
+ key exchange - ideal for cloud computing. You don't need to 
+ know Ruby to use rq!
 
 # Package: rq-doc
 # Architecture: all
