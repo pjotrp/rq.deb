@@ -6,7 +6,8 @@ Uploaders: Pjotr Prins <pjotr.debian@thebird.nl>, Steffen Moeller <moeller@debia
 Build-Depends: debhelper (>= 7)
 Standards-Version: 3.7.3
 Homepage: http://codeforpeople.com/
-Vcs-Git: 
+Vcs-Git: git://git.debian.org/git/pkg-escience/rq-ruby1.8.git
+Vcs-browser: http://git.debian.org/?p=pkg-escience/rq-ruby1.8.git
 
 Package: rq-ruby1.8
 Architecture: any
