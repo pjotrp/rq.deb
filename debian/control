@@ -12,7 +12,7 @@ Vcs-browser: http://git.debian.org/?p=pkg-escience/rq-ruby1.8.git
 Package: rq-ruby1.8
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}, libposixlock-ruby1.8, libsqlite3-ruby1.8, ruby1.8
-Description: Linux Clustering with rq: Small Is Beautiful
+Description: Linux clustering with the motto 'small is beautiful'
  Simply create an NFS-mounted priority queue and let nodes pull
  jobs from it as fast as they can? No scheduler, no process 
  migration, no central controller, no kernel mods, no ssh 
